@@ -10,4 +10,7 @@ jobs:
         uses: ./
         with:
           WEBSITE_URL: https://www.ck12.org/search/?q=hello&referrer=search
-          FAIL_TOTAL_COUNT: 10
+          EXTERNAL: false
+          TLD: true
+          LIST: true
+          UPGRADE: true
