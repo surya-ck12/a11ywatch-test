@@ -6,7 +6,7 @@ env:
 
 jobs:
   run-container:
-    name: Bench Website Tests
+    name: Bench Website Testing
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
